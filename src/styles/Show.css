@@ -1,0 +1,90 @@
+.show-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.token-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.fetch-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.home-button:hover {
+  background-color: #218838;
+}
+
+.tree-container {
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tree-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.error-popup {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 5px;
+}
+
+.error-popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #721c24;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.error-popup button:hover {
+  background-color: #501315;
+}

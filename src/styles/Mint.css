@@ -1,0 +1,110 @@
+.mint-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.home-button:hover {
+  background-color: #218838;
+}
+
+.mint-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.mint-button:hover {
+  background-color: #0056b3;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.popup-content input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.popup-content button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.error-popup {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 5px;
+}
+
+.error-popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #721c24;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.error-popup button:hover {
+  background-color: #501315;
+}
